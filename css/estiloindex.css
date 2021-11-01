@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap');
 /* font-family: 'PT Sans', sans-serif;
 font-family: 'Roboto Mono', monospace; */
 /* Estructura básica */
 
 body{
-    background-color: #EDEDED;
+   
     margin: 0px;
     padding: 0px;
 }
@@ -15,77 +15,99 @@ body header{
     width: 100%;
     display: flex;
     justify-content: center;
-    border-bottom: 2px solid #979797;
+    
 }
 
 body header .container{
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: row;
+   margin-top: 100px;
+   
 }
 
 /* Tres secciones del header */
 
 /* Sección 1 */
 body header .container .content-img{
-    width: 20%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 body header .container .content-img img{
-    width: 100%;
+    width: 50%;
 }
 
-/* Sección 2 */
-body header .container .content-nav{
-    width: 60%;
-    display: flex;
+
+ body main section .col-2{
+    width: 80%;
+    
     justify-content: center;
     align-items: center;
+    padding-left: 10%;
+    
+    
+   
+}
+body main section .col-1{
+    width: 10%;
 }
 
-body header .container .content-nav nav{
-    width: 100%;
+
+
+
+p{
+    font-size: 1.5em;
+    font-family: 'M PLUS 1p', sans-serif;
+    padding: 30px 50px 30px 40px;
+   
 }
 
-body header .container .content-nav nav ul{
-    width: 100%;
-    margin-left: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-body header .container .content-nav nav ul li{
+body main section .col-2 nav ul li{
     list-style: none;
-    padding: 5px 10px;
+    padding: 10px 40px 10px 10px;
+    
+    border-radius: 20px 20px 20px 20px ;
+    margin-top: 10px;
+    display: inline-block;
+    width:auto;
+    
+    
+    
 }
 
-body header .container .content-nav nav ul li a{
+body main section .col-2 nav ul li a{
     text-decoration: none;
-    color: #020202;
+    color: #bc0b12;
     font-size: 1.3em;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'M PLUS 1p', sans-serif;
     letter-spacing: 1px;
+    
+}
+body main section .col-2 nav ul li a:hover{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
 }
 
-/* Sección 3 */
-body header .container .content-logs{
-    width: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+body main .col-2{
+    width: 80%;
+    float: left;
+    
+    text-align: center;
+    
+}
+body main .col-3{
+    width: 10%;
+    float: right;
 }
 
-body header .container .content-logs div a svg{
-    width: 30px;
-    height: 30px;
-    color: #020202;
-    margin-left: 10px;
-}
 
 /* Estilos del footer */
 footer{
@@ -93,7 +115,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: solid 2px #979797;
+    border-top: solid 0px #979797;
     margin-top: 50px;
     padding-top: 30px;
 }
