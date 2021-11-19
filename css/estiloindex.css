@@ -2,9 +2,11 @@
 /* font-family: 'PT Sans', sans-serif;
 font-family: 'Roboto Mono', monospace; */
 /* Estructura básica */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
 
 body{
-   
+    
     margin: 0px;
     padding: 0px;
 }
@@ -85,8 +87,9 @@ body main section .col-2 nav ul li a{
     text-decoration: none;
     color: #bc0b12;
     font-size: 1.3em;
-    font-family: 'M PLUS 1p', sans-serif;
+    font-family: 'Zen Antique', serif;
     letter-spacing: 1px;
+    
     
 }
 body main section .col-2 nav ul li a:hover{
@@ -115,22 +118,31 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: solid 0px #979797;
-    margin-top: 50px;
-    padding-top: 30px;
+    margin-top: 10px;
+    padding-top: 10px;
+    
+    
+    
+    
 }
 
-footer div{
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-footer div span{
+footer .redes{
     width: 100%;
-    color: darkgray;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 1.2em;
-    text-align: center;
+    justify-content: center;
+    display: flex;
 }
+footer .redes ul li{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+footer .redes ul li img{
+    width: 5%;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
