@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto+Mono&display=swap', "//db.onlinewebfonts.com/t/9963d4ed6a01eb3ea58a9db8720bf032.eot?#iefix");
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto+Mono&display=swap');
 /* font-family: 'PT Sans', sans-serif;
 font-family: 'Roboto Mono', monospace; */
 /* Estructura básica */
@@ -25,7 +25,7 @@ header{
 .menu nav ul li{
     display: inline-block;
     list-style: none;
-    padding-left: 40px;
+    padding-left: 20px;
 
 }
 .menu nav ul li a{

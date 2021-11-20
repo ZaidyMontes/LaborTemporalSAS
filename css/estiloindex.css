@@ -135,11 +135,12 @@ footer .redes ul li{
     display: inline;
     align-items: center;
     justify-content: center;
+
     
 }
 
 footer .redes ul li img{
-    width: 5%;
+    width: 50px;
     align-items: center;
     justify-content: center;
     

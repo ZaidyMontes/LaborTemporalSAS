@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto+Mono&display=swap' );
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto+Mono&display=swap');
 /* font-family: 'PT Sans', sans-serif;
 font-family: 'Roboto Mono', monospace; */
 /* Estructura básica */
@@ -46,29 +46,102 @@ header{
     width: 50%;
     
 }
-.row-1{
+
+.row{
     width: 100%;
+    float: left;
     display: flex;
+    
+    padding-top: 3%;
 }
-
-.row-2{
+main{
     width: 100%;
-    display: flex;
+    padding-top: 30px;
+}
+.col-1{
+    width: 50%;
+    float: left;
+    padding-left: 50px;
+    box-sizing: border-box;
+    padding-top: 3%;
+   
+}
+.col-2{
+    width: 50%;
+    float: right;
+    padding-top: 3%;
+}
+form{
+    width: 450px;
+    margin: auto;
+    background-color: rgb(218, 218, 218);
+    padding: 20px;
+    border-radius: 7px;
+    margin-top: 20px;
+
 }
 
-.section{
-    width: 33.33%;
-    display: flex;
-    align-content: center;
+h2{
+    text-align: center;
+    color: #bc0b12;
+    font-family: 'Zen Antique', serif; 
+   font-size: 1.4em;
+}
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
 }
 
+.row1{
+   display: flex;
+    width: 100%;
+    background-color: #bc0b12;
+    
+    
+}
 
-p{
+.iframe{
+    padding-right: 10%;
+    object-fit: cover;
+}
+.ul{
+    padding-left: 10%;
+}
+
+.row section ul li{
+    font-size: 1.5em;
+    font-family: 'M PLUS 1p', sans-serif;
+    list-style: none;
+    padding-left: 10%;
+}
+#direccion{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'M PLUS 1p', sans-serif;
+    list-style: none;
+    padding-top: 3%;
+    color: white;
+}
+.banner{
+    width: 100%;
+    background-color: #bc0b12 ;
+    font-size: 1.3em;
+    font-family: 'Zen Antique', serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+main .banner p{
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+main .col-1 p{
     padding: 10%;
     padding-top: 0%;
     padding-bottom: 2%;
-    text-align: justify;
-    font-size: 1.5em;
+    text-align: left;
+    font-size: 1.2em;
     font-family: 'M PLUS 1p', sans-serif;
 }
 h1{
@@ -78,13 +151,8 @@ h1{
     font-family: 'Zen Antique', serif;
 
 }
-.imgs{
- padding: 10%;
- padding-left: 20%;
- padding-top: 2%;
- padding-bottom: 0%;
- width: 70%;
- align-content: center;
+textarea{
+    min-height: 100px;
 }
 
 
@@ -96,6 +164,12 @@ footer{
     
     margin-top: 60px;
     padding-top: 50px;
+}
+#boton{
+    background-color: #bc0b12 ;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 footer div{
@@ -140,8 +214,6 @@ footer div span{
 
     
 }
-
-
 @supports(object-fit: cover){
     .slider img{
       height: 50%;
